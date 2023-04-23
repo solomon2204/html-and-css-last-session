@@ -1,0 +1,303 @@
+.container{
+    width: 1350px;
+    margin: auto;
+  
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  header{
+    padding: 2px 0px;
+    box-shadow: 0px 10px 10px gray;
+  }
+  
+  .header_logo{
+    width: 200px;
+    height: auto;
+  }
+  
+  
+  .header_nav{
+     width: 700px;
+    margin-left: 450px;
+    margin-top: 50px;
+    font-size: 12px;
+
+}
+
+.header_nav a {
+   margin: 10px 15px;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 10px 15px;
+   border-radius: 5px;
+   
+}
+  
+  
+  .header_nav a {
+    text-decoration: none;
+    color: black;
+
+  }
+  
+  .header_nav a:hover {
+    color: blue;
+  }
+  
+  
+  .title{
+    margin-top: 50px;
+  }
+  
+  
+  
+  .title_two{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .title_two img{
+    width: 80%;
+    margin: 10%;
+  }
+  
+  .title_two h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+
+  .title_two p{
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .title_two a{
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 29px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  .title_two .login{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+  }
+  .explain{
+     width: 50%;
+     margin: auto;
+  }
+
+  .explain img{
+      width: 70%;
+     margin: 10% ;
+  }
+  
+  .explain_about{
+    width: 38%;
+    padding: 30px 20px;
+    margin: 0px auto;
+  
+  }
+
+  .explain_about h1{
+    font-size: 30px;
+  }
+  
+
+  .explain_about p{
+    font-size: 18px;
+    font-weight: 200;
+  }
+ .explain_about ul{
+    margin-top: 5px;
+ }
+ 
+
+ .explain_about .login_about{
+    font-weight: 50;
+    color: rgb(134, 142, 150);
+    margin-top: 20px;
+ }
+  
+  .underline{
+    width: 30px;
+    height: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+  }
+  
+  .support_box_border{
+    border-left:1px solid rgb(199, 196, 196); ;
+    border-right:1px solid rgb(199, 196, 196); ;
+  }
+  
+  .features{
+    margin-top: 50px;
+  }
+  
+  .features_img{
+    width: 100%;
+    margin: 0px auto;
+  }
+  
+  .features_img img{
+    width: 100%;
+  }
+  .features_content{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .features_content h2{
+    font-size: 50px;
+    text-align: center;
+  }
+  .features_content p{
+    font-weight: 200;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+  }
+  
+  .features_buttons{
+    margin-top: 100px;
+  }
+  
+  .features_button{ 
+    width: 100%;
+    text-align: center;
+
+   
+  }
+
+  .fields{
+         width: 60%;
+        margin: auto;
+        margin-top: 20px;
+  }
+  
+  .fields_one{
+    width: 38%;
+    padding: 10px 5px;
+    margin: 0px auto;
+  
+  }
+
+  .fields_two{
+    width:60%
+  }
+
+  .varsity{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .varsity_one{
+    width:40%
+  }
+
+  .varsity_two{
+    width:40%
+  }
+
+  
+  .zehorah{
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  
+  .zehorah_content {
+    width: 35%;
+    margin: auto;
+  }
+  
+  .zehorah_content h2{
+    text-align: center;
+    font-size: 40px;
+  }
+  .zehorah_content p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(147, 154, 160);
+    font-weight: 300;
+  }
+  
+  .zehorah_content a{
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+  
+  .zehorah_content .login{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .login:hover{
+    background-color: rgb(9, 75, 141);
+  }
+  
+  
+  .footer {
+    padding: 30px 0px;
+    background-color: aliceblue;
+  }
+  
+  .footer h3{
+    font-size: 28px;
+    color: rgb(199, 199, 199);
+  }
+  
+  .footer_nav{
+    padding: 33px 10px;
+    margin-left: 30px;
+  }
+  
+  .footer_nav a{
+    text-decoration: none;
+    color: #c4c0c0;
+    font-size: 18px;
+    margin: 5px 15px;
+  }
+  
+  .footer_nav a:hover{
+    color: black;
+  }
+  
+  .footer_help{
+    width: 25%;
+    padding: 33px 10px;
+    margin-left: 350px;
+    font-size: 18px;
+    color: rgb(157, 204, 135);
+  }
+  
+  .footer_help small{
+    margin-right: 20px;
+  
+  }
